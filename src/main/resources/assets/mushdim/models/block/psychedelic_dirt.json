@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/dirt",
+    "top": "mushdim:blocks/psychedelic_dirt",
+    "side": "minecraft:block/dirt"
+  }
+}

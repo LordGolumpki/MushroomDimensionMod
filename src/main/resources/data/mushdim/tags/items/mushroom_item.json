@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mushdim:champignon",
+    "mushdim:shitake",
+    "mushdim:crimini",
+    "mushdim:king_trumpet"
+  ]
+}

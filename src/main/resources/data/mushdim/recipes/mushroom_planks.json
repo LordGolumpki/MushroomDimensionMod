@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "mushdim:mushroom_log"
+    }
+  ],
+  "result": {
+    "item": "mushdim:mushroom_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "minecraft:block/mushroom_block_inside",
+    "side": "mushdim:blocks/king_trumpet_stem"
+  }
+}

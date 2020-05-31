@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y":  { "model": "mushdim:block/king_trumpet_stem" },
+    "axis=z":   { "model": "mushdim:block/king_trumpet_stem", "x": 90 },
+    "axis=x":   { "model": "mushdim:block/king_trumpet_stem", "x": 90, "y": 90 }
+  }
+}

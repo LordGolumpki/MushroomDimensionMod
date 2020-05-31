@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "mushdim:petrified_mushroom"
+    }
+  },
+  "result": {
+    "item": "mushdim:petrified_boots"
+  }
+}

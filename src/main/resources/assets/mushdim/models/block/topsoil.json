@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/dirt",
+    "top": "mushdim:blocks/topsoil",
+    "side": "mushdim:blocks/topsoil_side"
+  }
+}
