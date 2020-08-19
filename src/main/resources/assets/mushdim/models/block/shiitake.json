@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "mushdim:blocks/shitake"
+    "cross": "mushdim:blocks/shiitake"
   }
 }

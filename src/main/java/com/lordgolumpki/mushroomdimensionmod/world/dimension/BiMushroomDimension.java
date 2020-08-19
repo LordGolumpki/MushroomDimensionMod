@@ -19,7 +19,7 @@ public class BiMushroomDimension extends Dimension {
 
     @Override
     public ChunkGenerator<?> createChunkGenerator() {
-        return new MushroomDimensionChunkGenerator(world, new MushroomDimensionBiomeProvider(), new MushroomDimensionGenSettings());
+        return new MushroomDimensionChunkGenerator(world, new MushroomDimensionBiomeProvider(new MushroomDimensionBiomeProviderSettings(this.world.getWorldInfo())), new MushroomDimensionGenSettings());
     }
 
     @Nullable

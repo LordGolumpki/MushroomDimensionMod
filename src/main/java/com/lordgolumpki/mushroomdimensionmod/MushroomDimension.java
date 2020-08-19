@@ -1,9 +1,6 @@
 package com.lordgolumpki.mushroomdimensionmod;
 
-import com.lordgolumpki.mushroomdimensionmod.init.BiomeInit;
-import com.lordgolumpki.mushroomdimensionmod.init.BlockInit;
-import com.lordgolumpki.mushroomdimensionmod.init.DimensionInit;
-import com.lordgolumpki.mushroomdimensionmod.init.ItemInit;
+import com.lordgolumpki.mushroomdimensionmod.init.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

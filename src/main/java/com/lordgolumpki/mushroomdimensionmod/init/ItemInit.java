@@ -23,7 +23,9 @@ public class ItemInit {
     // Register Items
     // Items
     public static final RegistryObject<Item> PETRIFIED_MUSHROOM = ITEMS.register("petrified_mushroom", () -> new Item(new Item.Properties().group(MushroomDimension.MushroomDimensionItemGroup.instance)));
-    public static final RegistryObject<Item> KING_TRUMPET = ITEMS.register("king_trumpet", () -> new Item(new Item.Properties().group(MushroomDimension.MushroomDimensionItemGroup.instance).food(new Food.Builder().hunger(6).saturation(1.2F).build())));
+    public static final RegistryObject<Item> CRYSTALLIZED_SHIITAKE = ITEMS.register("crystallized_shiitake", () -> new Item(new Item.Properties().group(MushroomDimension.MushroomDimensionItemGroup.instance)));
+    public static final RegistryObject<Item> LICHEN = ITEMS.register("lichen", () -> new Item(new Item.Properties().group(MushroomDimension.MushroomDimensionItemGroup.instance)));
+    public static final RegistryObject<Item> KING_TRUMPET = ITEMS.register("king_trumpet", () -> new Item(new Item.Properties().group(MushroomDimension.MushroomDimensionItemGroup.instance).food(new Food.Builder().hunger(3).saturation(0.3F).build())));
     public static final RegistryObject<Item> FLINT_AND_MUSHROOM = ITEMS.register("flint_and_mushroom", () -> new PortalIgnitionItem(new Item.Properties().group(MushroomDimension.MushroomDimensionItemGroup.instance)));
     // Tools
     public static final RegistryObject<Item> PETRIFIED_SWORD = ITEMS.register("petrified_sword", () -> new SwordItem(ModItemTier3.ITEM_TIER_3, 10, -2.4F, new Item.Properties().group(MushroomDimension.MushroomDimensionItemGroup.instance)));

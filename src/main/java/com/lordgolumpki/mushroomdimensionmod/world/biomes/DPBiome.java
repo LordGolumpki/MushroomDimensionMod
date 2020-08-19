@@ -26,7 +26,7 @@ public class DPBiome extends Biome {
     private static final BlockState DIORITE = Blocks.DIORITE.getDefaultState();
     private static final BlockState ANDESITE = Blocks.ANDESITE.getDefaultState();
     public static final HugeTreeFeatureConfig KING_TRUMPET_CONFIG = (new HugeTreeFeatureConfig.Builder(new SimpleBlockStateProvider(BlockInit.KING_TRUMPET_STEM.get().getDefaultState()), new SimpleBlockStateProvider(BlockInit.KING_TRUMPET_BLOCK.get().getDefaultState()))).baseHeight(5).heightInterval(10).crownHeight(0).setSapling((IPlantable)BlockInit.KING_TRUMPET_GRAIN.get()).build();
-    public static final BlockClusterFeatureConfig SHITAKE_CONFIG = (new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(BlockInit.SHITAKE.get().getDefaultState()), new SimpleBlockPlacer())).tries(64).func_227317_b_().build();
+    public static final BlockClusterFeatureConfig SHIITAKE_CONFIG = (new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(BlockInit.SHIITAKE.get().getDefaultState()), new SimpleBlockPlacer())).tries(64).func_227317_b_().build();
     public static final BlockClusterFeatureConfig CRIMINI_CONFIG = (new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(BlockInit.CRIMINI.get().getDefaultState()), new SimpleBlockPlacer())).tries(64).func_227317_b_().build();
     public static final BlockClusterFeatureConfig CHAMPIGNON_CONFIG = (new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(BlockInit.CHAMPIGNON.get().getDefaultState()), new SimpleBlockPlacer())).tries(64).func_227317_b_().build();
 
@@ -38,7 +38,7 @@ public class DPBiome extends Biome {
 
         // Add Unique Features
         addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.MEGA_JUNGLE_TREE.withConfiguration(KING_TRUMPET_CONFIG).withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(2, 0.1F, 1))));
-        addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(SHITAKE_CONFIG).withPlacement(Placement.COUNT_CHANCE_HEIGHTMAP.configure(new HeightWithChanceConfig(4, 0.25F))));
+        addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(SHIITAKE_CONFIG).withPlacement(Placement.COUNT_CHANCE_HEIGHTMAP.configure(new HeightWithChanceConfig(4, 0.25F))));
         addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(CRIMINI_CONFIG).withPlacement(Placement.COUNT_CHANCE_HEIGHTMAP.configure(new HeightWithChanceConfig(4, 0.25F))));
         addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(CHAMPIGNON_CONFIG).withPlacement(Placement.COUNT_CHANCE_HEIGHTMAP.configure(new HeightWithChanceConfig(4, 0.25F))));
 
