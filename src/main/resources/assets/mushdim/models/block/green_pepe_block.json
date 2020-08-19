@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mushdim:blocks/green_pepe_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mushdim:blocks/crystallized_shiitake_ore"
+  }
+}
